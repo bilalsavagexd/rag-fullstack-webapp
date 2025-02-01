@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.740.0",
+    "@aws-sdk/lib-storage": "^3.740.0",
     "@clerk/nextjs": "^6.10.4",
     "@neondatabase/serverless": "^0.10.4",
+    "@pinecone-database/pinecone": "^4.1.0",
     "@radix-ui/react-slot": "^1.1.1",
     "@tanstack/react-query": "^5.66.0",
     "aws-sdk": "^2.1692.0",
@@ -20,8 +23,10 @@
     "dotenv": "^16.4.7",
     "drizzle-kit": "^0.30.4",
     "drizzle-orm": "^0.39.1",
+    "langchain": "^0.3.15",
     "lucide-react": "^0.474.0",
     "next": "15.1.6",
+    "pdf-parse": "^1.1.1",
     "pg": "^8.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
